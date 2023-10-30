@@ -1,0 +1,8 @@
+mra/
+./env
+*.env
+.env
+.github/
+.flake8
+pyproject.toml
+__pycache__/

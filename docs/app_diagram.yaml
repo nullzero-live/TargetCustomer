@@ -1,0 +1,28 @@
+MarketResearchApp/
+├── db/
+│   └── mongo_util.py          : Contains MongoDBUtility class for generic MongoDB operations.
+├── agents/
+│   ├── user_input_agent.py    : Collects user input and returns a JSON object.
+│   ├── research_agent.py      : Performs in-depth research based on input and returns summary.
+│   └── strategist_agent.py    : Develops a strategy based on research summary.
+├── data_collation/
+│   └── data_collator.py       : Handles data collation and future analysis functionalities.
+├── tests/
+│   ├── test_user_input.py     : Unit tests for user_input_agent.
+│   ├── test_research.py       : Unit tests for research_agent.
+│   ├── test_strategist.py     : Unit tests for strategist_agent.
+│   └── test_data_collator.py  : Unit tests for data_collator.
+├── frontend/
+│   └── (placeholder files)    : Placeholder for future frontend development.
+├── logs/
+│   └── logger.py              : Centralized logging utility.
+├── .github/
+│   └── main.yml               : GitHub Actions CI/CD pipeline.
+├── config/
+│   └── .env                   : Environment variables.
+├── main.py                    : Application entry point, integrating all agents and data collation.
+├── Dockerfile                 : Instructions for building the Docker image.
+├── .dockerignore              : Specifies files to ignore during Docker build.
+├── requirements.txt           : Lists project dependencies.
+├── README.md                  : Project documentation.
+└── .gitignore                 : Specifies files to ignore in git operations.
